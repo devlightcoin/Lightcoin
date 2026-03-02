@@ -347,8 +347,19 @@ public:
         vSeeds.emplace_back("Lightcoin2", "104.248.85.5", true);
         vSeeds.emplace_back("Lightcoin3", "167.172.43.112", true);
         vSeeds.emplace_back("Lightcoin4", "188.166.63.147", true);
-        vSeeds.emplace_back("Lightcoin5", "64.227.76.85", true);
-        vSeeds.emplace_back("Lightcoin6", "134.122.59.8", true);
+        vSeeds.emplace_back("Lightcoin5", "149.102.139.53", true);
+	    vSeeds.emplace_back("Lightcoin6", "38.242.236.173", true);
+	    vSeeds.emplace_back("Lightcoin7", "212.56.41.103", true);
+	    vSeeds.emplace_back("Lightcoin8", "178.128.192.185", true);
+	    vSeeds.emplace_back("Lightcoin9", "179.111.152.18", true);
+	    vSeeds.emplace_back("Lightcoin10", "189.0.184.150", true);
+	    vSeeds.emplace_back("Lightcoin11", "134.209.244.220", true);
+	    vSeeds.emplace_back("Lightcoin12", "149.102.139.53", true);
+	    vSeeds.emplace_back("Lightcoin13", "178.62.73.37", true);
+	    vSeeds.emplace_back("Lightcoin14", "167.86.85.243", true);
+	    vSeeds.emplace_back("Lightcoin15", "161.97.124.118", true);
+	    vSeeds.emplace_back("Lightcoin16", "155.138.197.178", true);
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Lightcoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Lightcoin script addresses start with '8' or '9'
